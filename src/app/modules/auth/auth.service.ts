@@ -3,7 +3,7 @@ import { Secret } from 'jsonwebtoken';
 import prisma from '../../../shared/prisma';
 import ApiError from '../../../errors/ApiError';
 import { httpStatus } from '../../../shared/http-status';
-import { Role, User } from '@prisma/client';
+import { Role, User } from '../../../generated/client/client';
 import config from '../../../config';
 import { jwtHelpers } from '../../../shared/jwtHelpers';
 

@@ -1,5 +1,5 @@
 import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
-import { Prisma } from '@prisma/client';
+import { Prisma } from '../../generated/client/client';
 import ApiError from '../../errors/ApiError';
 import handleValidationError from '../../errors/handleValidationError';
 import handleClientError from '../../errors/handleClientError';

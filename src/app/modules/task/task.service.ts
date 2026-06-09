@@ -1,4 +1,4 @@
-import { Task, TaskStatus, TaskPriority, Role, Comment, Attachment } from '@prisma/client';
+import { Task, TaskStatus, TaskPriority, Role, Comment, Attachment } from '../../../generated/client/client';
 import prisma from '../../../shared/prisma';
 import ApiError from '../../../errors/ApiError';
 import { httpStatus } from '../../../shared/http-status';

@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { Secret } from 'jsonwebtoken';
-import { Role } from '@prisma/client';
+import { Role } from '../../generated/client/client';
 import ApiError from '../../errors/ApiError';
 import { httpStatus } from '../../shared/http-status';
 import config from '../../config';

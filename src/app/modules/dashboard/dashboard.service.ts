@@ -1,4 +1,4 @@
-import { TaskStatus, Role } from '@prisma/client';
+import { TaskStatus, Role } from '../../../generated/client/client';
 import prisma from '../../../shared/prisma';
 
 const getDashboardStats = async (user: { id: string; role: Role }) => {

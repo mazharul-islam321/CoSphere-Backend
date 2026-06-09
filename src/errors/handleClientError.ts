@@ -1,4 +1,4 @@
-import { Prisma } from '@prisma/client';
+import { Prisma } from '../generated/client/client';
 import { IGenericErrorMessage } from '../interfaces/error';
 
 const handleClientError = (error: Prisma.PrismaClientKnownRequestError) => {
